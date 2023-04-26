@@ -5,7 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.0/mapbox-gl.css" rel="stylesheet">
+    <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.3.0/mapbox-gl.css" rel="stylesheet"> -->
+    <script
+      type="text/javascript"
+      src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"
+    ></script>
+    <!-- <script type="text/javascript" src="./lib/echarts-all-3.js"></script> -->
+    <!-- <script
+      type="text/javascript"
+      src="https://cdn.bootcdn.net/ajax/libs/echarts/5.4.2/echarts.common.min.js"></script> -->
+    <script type="text/javascript" src="./lib/EchartsLayer.js"></script>
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoieHV5aWNoYW8xMjM0IiwiYSI6ImNqeDVod2IwZjAyNXg0YXBvdWJkcXVuejIifQ.EMtViDDUKAhPAD9bnOdBfA'
+    </script>
   </head>
   <body>
     <noscript>
